@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Gizli bilgiler (backend'de DB şifresi, JWT secret burada duracak)
+.env
+
+# Veri: klasör dursun, içindekiler GitHub'a gitmesin
+data/*
+!data/.gitkeep
+
+# Model ağırlıkları ve checkpoint'ler
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+
+# macOS ve editör
+.DS_Store
+.vscode/
